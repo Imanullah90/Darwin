@@ -1,0 +1,225 @@
+<html lang="id">
+ <head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Ishlah Darma Imanullah - Portofolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #000000;
+      color: #facc15; /* yellow-400 */
+    }
+    a {
+      color: #fbbf24; /* yellow-400 */
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #b45309; /* yellow-700 */
+    }
+    header {
+      background-color: #000000;
+      border-bottom: 2px solid #fbbf24;
+    }
+    nav ul li a {
+      color: #facc15;
+      font-weight: 600;
+    }
+    nav ul li a:hover {
+      color: #b45309;
+    }
+    .btn-primary {
+      background-color: #fbbf24;
+      color: #000000;
+      font-weight: 700;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .btn-primary:hover {
+      background-color: #b45309;
+      color: #facc15;
+    }
+    section.bg-dark {
+      background-color: #111111;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px rgba(251, 191, 36, 0.3);
+      color: #facc15;
+    }
+    footer {
+      background-color: #000000;
+      border-top: 2px solid #fbbf24;
+      color: #facc15;
+    }
+    /* Scrollbar for dark theme */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #000000;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #fbbf24;
+      border-radius: 10px;
+    }
+  </style>
+ </head>
+ <body>
+  <header class="sticky top-0 z-50 shadow-lg">
+   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-3xl font-bold tracking-wide">Ishlah Darma Imanullah</h1>
+    <nav>
+     <ul class="flex space-x-8 text-yellow-400 text-lg">
+      <li>
+       <a href="#about" class="hover:text-yellow-700 transition duration-300"
+         >Tentang</a
+       >
+      </li>
+      <li>
+       <a href="#projects" class="hover:text-yellow-700 transition duration-300"
+         >Proyek</a
+       >
+      </li>
+      <li>
+       <a href="#contact" class="hover:text-yellow-700 transition duration-300"
+         >Kontak</a
+       >
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+
+  <main class="container mx-auto px-6 py-16">
+   <section
+     id="hero"
+     class="flex flex-col md:flex-row items-center md:space-x-16"
+   >
+    <div class="md:w-1/2 mb-10 md:mb-0">
+     <img
+       src="https://storage.googleapis.com/a1aa/image/d8e7a742-0cf2-49eb-7360-8bff042b02b6.jpg"
+       alt="Ilustrasi gaya anime seorang pria mengenakan kemeja coklat muda dengan lengan digulung dan celana hitam berdiri di sungai dangkal bersama anak laki-laki mengenakan kaos tanpa lengan putih dan celana pendek merah, dengan latar belakang hutan dan pepohonan di bawah langit cerah"
+       class="rounded-3xl shadow-2xl w-full max-w-md mx-auto"
+       height="800"
+       width="600"
+     />
+    </div>
+    <div class="md:w-1/2 text-center md:text-left">
+     <h2 class="text-5xl font-extrabold mb-6 leading-tight text-yellow-400">
+      Halo, saya <span class="text-yellow-600">Ishlah Darma Imanullah</span>
+     </h2>
+     <p class="text-lg mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed text-yellow-300">
+      Pengembang JavaScript yang bersemangat, membuat aplikasi web modern,
+      responsif, dan mudah digunakan. Saya suka mengubah ide menjadi kenyataan
+      dengan kode yang bersih dan desain yang menarik.
+     </p>
+     <a
+       href="#projects"
+       class="btn-primary inline-block px-8 py-4 rounded-xl shadow-lg hover:shadow-xl"
+       >Lihat Proyek Saya</a
+     >
+    </div>
+   </section>
+
+   <section
+     id="about"
+     class="mt-24 max-w-4xl mx-auto text-center p-12 bg-dark"
+   >
+    <h3 class="text-4xl font-bold mb-8 text-yellow-400">Tentang Saya</h3>
+    <p class="text-yellow-300 text-lg leading-relaxed">
+     Saya mengkhususkan diri dalam JavaScript dan framework modern seperti
+     React dan Vue. Saya menikmati membuat pengalaman web yang interaktif dan
+     dinamis yang menyenangkan pengguna dan menyelesaikan masalah dunia nyata.
+     Saat tidak coding, saya suka menjelajah alam dan menghabiskan waktu di
+     luar ruangan.
+    </p>
+   </section>
+
+   <section id="projects" class="mt-24 max-w-6xl mx-auto">
+    <h3 class="text-4xl font-bold mb-12 text-yellow-400 text-center">Proyek</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+     <div class="p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-dark">
+      <img
+        src="https://storage.googleapis.com/a1aa/image/7c04f35c-43e6-4c22-6a7a-83e44a6b89b9.jpg"
+        alt="Tangkapan layar Proyek 1 menampilkan antarmuka aplikasi web modern dengan grafik dan navigasi"
+        class="rounded-xl mb-6 w-full"
+        height="400"
+        width="600"
+      />
+      <h4 class="text-2xl font-semibold mb-3">Proyek Satu</h4>
+      <p class="leading-relaxed">
+       Aplikasi dashboard responsif yang dibangun dengan React dan Chart.js
+       untuk memvisualisasikan data secara real-time.
+      </p>
+     </div>
+     <div class="p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-dark">
+      <img
+        src="https://storage.googleapis.com/a1aa/image/9f7d6242-0188-47c7-cdd5-6531e9ff00ae.jpg"
+        alt="Tangkapan layar Proyek 2 menampilkan halaman depan situs e-commerce yang ramah seluler"
+        class="rounded-xl mb-6 w-full"
+        height="400"
+        width="600"
+      />
+      <h4 class="text-2xl font-semibold mb-3">Proyek Dua</h4>
+      <p class="leading-relaxed">
+       Platform e-commerce dengan animasi halus dan integrasi pembayaran
+       yang aman.
+      </p>
+     </div>
+     <div class="p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-dark">
+      <img
+        src="https://storage.googleapis.com/a1aa/image/60dad471-f05c-455d-b393-8ccd9a5895cd.jpg"
+        alt="Tangkapan layar Proyek 3 menampilkan situs blog dengan tipografi dan gambar yang bersih"
+        class="rounded-xl mb-6 w-full"
+        height="400"
+        width="600"
+      />
+      <h4 class="text-2xl font-semibold mb-3">Proyek Tiga</h4>
+      <p class="leading-relaxed">
+       Situs blog pribadi yang dibangun dengan Vue.js dengan dukungan markdown
+       dan optimasi SEO.
+      </p>
+     </div>
+    </div>
+   </section>
+
+   <section id="contact" class="mt-24 max-w-3xl mx-auto text-center p-12 bg-dark">
+    <h3 class="text-4xl font-bold mb-8 text-yellow-400">Kontak Saya</h3>
+    <p class="mb-8 text-lg text-yellow-300">
+     Tertarik bekerja sama? Hubungi saya melalui email atau media sosial.
+    </p>
+    <div class="flex justify-center space-x-10 text-yellow-400 text-3xl">
+     <a
+       aria-label="Email"
+       href="mailto:ishlah@example.com"
+       class="hover:text-yellow-600 transition"
+       ><i class="fas fa-envelope"></i
+     ></a>
+     <a
+       aria-label="GitHub"
+       href="https://github.com/ishlahdarma"
+       rel="noopener"
+       target="_blank"
+       class="hover:text-yellow-600 transition"
+       ><i class="fab fa-github"></i
+     ></a>
+     <a
+       aria-label="LinkedIn"
+       href="https://linkedin.com/in/ishlahdarma"
+       rel="noopener"
+       target="_blank"
+       class="hover:text-yellow-600 transition"
+       ><i class="fab fa-linkedin"></i
+     ></a>
+    </div>
+   </section>
+  </main>
+
+  <footer class="py-8 mt-24 text-center text-yellow-400 text-sm">
+   © 2024 Ishlah Darma Imanullah. Semua hak dilindungi.
+  </footer>
+ </body>
+</html>
